@@ -94,7 +94,7 @@ aside {
     color: #8c8c8c;
 }
 .navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
-    color: #404040!important;
+    color: #404040;
 }
 .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
     color: #404040!important;
