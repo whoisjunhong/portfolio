@@ -84,20 +84,20 @@ aside {
 .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
     font-size: 12px;
-    color: #222;
+    color: #8c8c8c;
     text-transform: uppercase
 }
 .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
-    color: #222
-}
-.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
     color: #8c8c8c;
 }
+.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
+    color: #404040!important;
+}
 .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
-    color: #8c8c8c!important;
+    color: #404040!important;
     background-color: transparent
 }
 .navbar-default .nav>li.active>a:focus:hover, .navbar-default .nav>li.active>a:hover {
