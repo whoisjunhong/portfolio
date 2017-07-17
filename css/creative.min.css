@@ -294,17 +294,17 @@ header .header-content .header-content-inner p {
     background-color: #222
 }
 .btn-primary {
-    color: #c68c53;
-    background-color: #fbedd0; /* old lace */
-    border-color: #fbedd0;
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s
 }
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-    color: #996633;
-    background-color: #f9e3b8;
-    border-color: #f9e3b8;
+    color: #333;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
 }
 .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
     background-color: #f2f2f2;
