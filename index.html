@@ -1,282 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="img/icon/titleicon.ico" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Welcome</title>
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <title>Wee Jun Hong's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Favicons -->
+  <link href="assets/img/icon/titleicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <link href="css/creative.min.css" rel="stylesheet">
-	<link href="css/pickle.scss" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body id="page-top">
+<body>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">wee junhong</a>
-            </div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">What I Do</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-history"></i> <span>Background</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-clipboard"></i> <span>Portfolio</span></a></li>
+        <li><a href="#footer" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Wee Jun Hong</h1>
+      <p>I'm a <span class="typed" data-typed-items="Software Engineer., Security Engineer., Photographer., Sports Enthusiast."></span></p>
+      <div class="social-links">
+        <a href="https://github.com/whoisjunhong" class="github"><i class="bx bxl-github"></i></a>
+        <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+        <a href="https://www.linkedin.com/in/weejunhong" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+        <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Hi! I'm Junhong, a <br>Software &amp; Cybersecurity Engineer</h3><br>
+            <p>
+              I am a final year undergraduate Computer Science student
+              in the National University of Singapore. <br><br>
+
+              I have a strong passion for software development, computer security and all things tech <br><br>
+
+              Scroll down to find out more on the projects I worked on!
+            </p>
+            <!-- <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New Y</span></li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Welcome.</h1>
-                <hr>
-                <p>Dude<br/>
-                    Student<br/>
-                    Located in Singapore<br/>
-                    I do photography and IT related projects<br/>
-                    Since 2014.<br/>
-                </p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll" style="opacity: 0.9">Interested?</a>
-            </div>
+      </div>
+    </section><!-- End About Section -->
+
+<!-- ======= Services Section ======= -->
+<section id="skills" class="services">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Skills</h2>
+      <p>The following are my non-exhaustive list of technical and non-technical competencies.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon"><i class="bx bx-book-open"></i></div>
+        <h4 class="title"><a href="">Programming Languages & Tools</a></h4>
+        <p class="description">Java, Python, C, C++, SQL, PHP, Bash, Git</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon"><i class="bx bx-coin-stack"></i></div>
+        <h4 class="title"><a href="">Databases</a></h4>
+        <p class="description">MySQL, SQLite, Firebase Storage</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon"><i class="bx bx-library"></i></div>
+        <h4 class="title"><a href="">Web Development</a></h4>
+        <p class="description">JavaScript, TypeScript, HTML/CSS, Bootstrap, React, node.js</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon"><i class="bx bx-laptop"></i></div>
+        <h4 class="title"><a href="">Technologies</a></h4>
+        <p class="description">Github, Git, Apache, Vim, LATEX, SourceTree, Figma</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon"><i class="bx bx-speaker"></i></div>
+        <h4 class="title"><a href="">Communication</a></h4>
+        <p class="description">English (Fluent), Chinese (Fluent)</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+        <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+        <h4 class="title"><a href="">Others</a></h4>
+        <p class="description">Team Leadership, Teamwork</p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Background</h2>
         </div>
-    </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img src="img/profile.jpg" class="img-circle" alt="Me" style="width: 20%; padding-bottom: 15px;">
-                    <h2 class="section-heading">About me</h2>
-                    <hr class="light">
-                    <p class="text-faded">I am a current Year 2 undergraduate pursuing Computer Science <br>in the National University of Singapore.<br><br>
-                        I have a strong passion for software development, computer security and all things tech<br/><br/>
-                        Scroll down to find out more on the projects I worked on! </p>
-                        <br/>
-                        <br/>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button" style="opacity: 0.9">Find out more</a>
-                </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>BComp. Honours Computer Science, National University of Singapore (NUS)</h4>
+              <h5>Aug 2020 - Dec 2023</h5>
+              <b><p><em>Specialisation: Computer Security, Networking & Distributed Systems</em></p></b>
+              <p>Relevant Coursework: <br> 
+                Software Engineering, Data Structures and Algorithms, Object-Oriented Programming, Operating Systems, Computer Security, Computer Networks</p>
+              <p>Leadership & Activities: <br>
+                • Teaching Assistant: 
+                  <br> &nbsp &nbsp • IS1108 (Digital Ethics and Data Privacy) AY22/23 <br><br>
+                • NUS Sports Club: 
+                  <br> &nbsp &nbsp • 42nd MC - Vice-President (External) 
+                  <br> &nbsp &nbsp • 41st MC - Project Director (RunNUS 2021)</p>
             </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What I do</h2>
-                    <hr class="primary">
-                </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Security Engineer Intern</h4>
+              <h5>Visa, Mobile & Mac Security (MMS) Team</h5>
+              <h5>May 2023 - Present</h5>
+              <!-- <ul>
+                <li>Performed ethical penetration testing on various Visa mobile and Mac assets to simulate real-life security vulnerabilities and scenarios</li>
+                <li>Developed tools and frameworks required performing advanced and complex mobile security assurance and ethical hacking activities</li>
+                <li>Technologies: Python, NodeJS, Java, Swift, Kotlin JavaScript, Objective-C</li>
+              </ul> -->
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
-                        <h3>Software Development</h3>
-                        <p class="text-muted">Python, Java, Swift, etc. </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
-                        <h3>Web Design</h3>
-                        <p class="text-muted">HTML5, CSS, JavaScript, etc.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-camera text-primary sr-icons"></i>
-                        <h3>Photography</h3>
-                        <p class="text-muted">Events, people, street or anything that tickles my fancy</p>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-circle-o text-primary sr-icons"></i>
-                        <h3>Others</h3>
-                        <p class="text-muted">done</p>
-                    </div>
-                </div> -->
+            <div class="resume-item">
+              <h4>Software Security Engineer Intern</h4>
+              <h5>DSO National Laboratories, Cybersecutiy Lab (CSL)</h5>
+              <h5>May - Aug 2022</h5>
+              <!-- <ul>
+                <li>Researched on Living-Off-the-Land Binaries (LOLBins), Binary Analysis, Reverse Engineering for Penetration Testing on Windows 10 Enterprise Machines</li>
+                <li>Implemented Pre & Post-exploits for Windows 10 Enterprise Machines using Covenant C2</li>
+                <li>Designed and implemented pentesting tools using Python, PowerShell and Bash to automate manual pentesting, saving over multiple days to perform static analysis on LOLBins vulnerabilities on Win10</li>
+                <li>Developed new techniques & tools to enhance effectiveness of LOLBins exploits using MITRE ATT&CK frameworks</li>
+              </ul> -->
             </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery" style="border-top: 2px solid #a6a6a6;">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Ecommerce Website
-                                </div>
-                                <div class="project-name">
-                                    Sole Mate Inc.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Events (Photographer)
-                                </div>
-                                <div class="project-name">
-                                    MP Chan Chee Seng Book Launch
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application Development
-                                </div>
-                                <!-- <div class="project-name">
-                                    Street Photography
-                                </div> -->
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                -->
+            <div class="resume-item">
+              <h4>Banking Technology Associate Intern</h4>
+              <h5>United Overseas Bank, Group Technology Operations (GTO)</h5>
+              <h5>May - Aug 2021</h5>
+              <!-- <ul>
+                <li>Monitored, analyzed and developed release data of security patches/fixes and its implementation status</li>
+                <li>Automated the creation release deployment packages in QA and Production Environments through CI/CD Pipelines using Bash which minimises the tedious manual work per deployment</li>
+                <li>Automated the tracking and retrieval of large influx (>30k) of daily bug reports and issues using Bash and VBA, saving an average of 10 hours per week of manual filtering and reporting work</li>
+              </ul> -->
             </div>
-        </div>
-    </section>
-
-   <!-- <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Lazy to put content</h2>
-				<div id="rick"></div>
-                &lt;!&ndash; <img src="img/whiteman.gif" class="img-responsive center-block" alt="Hahahahhahahaha"> &ndash;&gt;
+            <div class="resume-item">
+              <h4>Software Engineer Intern</h4>
+              <h5>MQ Spectrum, Software Development Team</h5>
+              <h5>May— Aug 2017; Mar—May 2018</h5>
+              <!-- <ul>
+                <li>Development, integration and maintenance of web-based applications LMS using Moodle, PHP, HTML, CSS, MySQL</li>
+                <li>Refined performance, functional, regression and unit-tests using Selenium for running multiple tests across browsers and OS, saving up to 20 hours per week of manual testing</li>
+                <li>Planned and established the company’s technical program for on-boarding of new interns that includes Software Development, SDLC, Version Control and Unit Testing</li>
+              </ul> -->
             </div>
+          </div>
         </div>
-    </aside>-->
+        <br><br>
+        <div class="section-title">
+          <p>To view my resume in detail, it can be downloaded in PDF format from the link below</p><br>
+            <a href="assets/WeeJunHong_Resume2023.pdf" download="WeeJunHong_Resume">
+              <img src="assets/img/pdf.png" alt="WeeJunHong_Resume" width="60" height="60"><br>WeeJunHong_Resume
+            </a>
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Get in touch!</h2>
-                    <hr class="primary">
-                    <p>Feel free to contact me via these platforms <br/> PS. I don't bite</p>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Here are some of the projects I have done over the years for personal or school purposes!</p>
+        </div>
+        
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Web Dev</li>
+              <li data-filter=".filter-app">Mobile Dev</li>
+              <li data-filter=".filter-card">Photgrahpy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/projecthelp/android_home.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Project Help</h4>
+                <p>iOS & Android Application</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/projecthelp/android_home.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                    title="1-Click mobile app for volunteers to enable facilitation of elderly service requests<br><br>
+                    
+                        <em>Technologies: Swift, Objective-C, Java, Android Studio, Xcode, MySQL</em>"><i class="bx bx-expand"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
                 </div>
-                <!-- <div class="col-lg-4 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>+65 98765432</p>
-                </div> -->
-                <div class="col-lg-6 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:weejunhong@gmail.com">Email</a></p>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <i class="fa fa-linkedin fa-3x sr-contact"></i>
-                    <p><a href="https://www.linkedin.com/in/weejunhong">LinkedIn</a></p>
-                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/solemate/solemate_main.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Solemate Inc.</h4>
+                <p>e-Commerce Website</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/solemate/solemate_main.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                    title="An e-Commerce website developed in PHP with full CRUD and shopping functionalities<br><br>
+                      <em>Technologies: PHP, MySQL, JavaScript, HTML/CSS, Bootstrap</em>"><i class="bx bx-expand"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photography/street/cover.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Street Photography</h4>
+                <p>Street Shoots</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photography/street/cover.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Central Station, Sydney, Australia"><i class="bx bx-expand"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/tsa/tsa4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Traffic Surveillance Application</h4>
+                <p>Android Application using IoT</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tsa/tsa4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                      title="An android application that helps facilitate the process of monitoring SAF transport operators using IoT sensors, GPS and a mobile app on public roads. <br><br> 
+                            Represented NYP and achieved finalist postition for the inaugural LHL Interactive Media Award. <br><br>
+                            <em>Technologies: Java, Android Studio MySQL, OBD2 Controllers</em>"><i class="bx bx-expand"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/loremipsum/loremipsum_home.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Lorem Ipsum</h4>
+                <p>Super Simple Form</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/loremipsum/loremipsum_home.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" 
+                      title="The objective of this application is to create the most user 'un-friendly' website. <br><br>
+                          Developed during HacknRoll 2022. <br><br>
+                          <em>Technologies: JavaScript, HTML/CSS, Bootstrap</em>"><i class="bx bx-expand"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photography/events/cover.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Event Photography</h4>
+                <p>Concert Photography</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photography/events/cover.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Matt Redman Concert"><i class="bx bx-expand"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </section>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/jquery/jquery.js" type="text/javascript"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      </div>
+    </section><!-- End Portfolio Section -->
+  </main><!-- End #main -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Get in touch!</h3>
+      <h5><em>Feel free to contact me via these platforms<br>
+        PS. I don't bite</em></h5><br>
+      <div class="social-links">
+        <a href="https://github.com/whoisjunhong" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/weejunhong" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:weejunhong@gmail.com"><i class="envelope"><i class="bx bx-envelope"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-    <script src="js/creative.min.js"></script>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
